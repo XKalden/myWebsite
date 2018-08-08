@@ -1,0 +1,117 @@
+.navBar{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+
+    position: absolute;
+    top: 0;
+    right: 0; 
+    transition: all .2s;
+}
+
+.first__Nav{
+    border-bottom: 1px solid darkgray;
+    padding: .5% 9%;
+
+
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__Nav ul{ 
+
+}
+
+.first__ul{
+    display: flex;
+  
+}
+.first__ul li{
+    font-size: .8rem;
+}
+.first__ul li a:hover{
+    color: lightblue;
+}
+
+.second__ul{
+    display: flex;
+}
+
+.second__ul li {
+    font-size: 1.2rem;   
+}
+
+.second__ul li:not(:last-child){
+
+    padding-right: 1rem;
+    margin-right: 1rem; 
+    border-right: 1px solid darkgray;
+}
+
+.second__ul li a.linkedin:hover{
+    color: rgb(45,118,176);
+ 
+}
+
+.second__ul li a.facebook:hover{
+    color: rgb(71,103,173);
+}
+
+.second__ul li a.instagram:hover{
+    color: goldenrod;
+ 
+}
+
+.second__ul li a.github:hover{
+    color: rgb(37,41,46);
+}
+
+.second__ul li a.youtube:hover{
+    color: rgb(236,51,36);
+}
+
+
+.first__Nav a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Second Nabar */
+
+.logo{
+    height: 75px;
+    transition: all .2s;
+}
+
+.second__Nav{
+    padding: .5% 9%;
+
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__container{
+
+}
+
+.nav__menue{
+    display: flex;
+  
+}
+
+.nav__menue li{
+    padding-left: 3rem;
+}
+
+.nav__menue li a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.nav__menue li a:hover{
+    padding-bottom: 4px;
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,119 @@
+.footer{
+    background-color: rgb(14, 13, 13);
+  
+    color: white;
+    width: 100%;
+
+  
+    padding-top: 4%;
+}
+
+
+.first__footer-flex{
+    padding: .5% 9%;
+    display: flex;
+}
+
+.copy__right{
+
+    width: 50%;
+
+}
+.copy__p{
+    color: #777;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: .8rem;
+    line-height: 1.4rem;
+    width: 80%;
+}
+
+.github__project{
+    width: 50%;
+ 
+}
+.github__project h3{
+    padding-bottom:1rem;
+}
+
+
+
+.first__Nav-2{
+    background-color: rgb(31, 31, 31);
+    padding: .5% 9%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    border-top: 1px solid darkgray;
+  
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.second__ul a{
+    color: white;
+}
+
+
+/* footer */
+.repo__container{
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid darkgray;
+    border-radius: 5px;
+
+    margin-bottom: 1rem;
+    padding: 1rem; 
+
+}
+.first__container-repo{
+
+}
+.footer__logo{
+    height: 200px;
+}
+
+.first__container-repo a{
+    text-decoration: none;
+    color: white;
+}
+
+.first__container-repo a:hover{
+    color: lightblue;
+
+}
+
+.first__container-repo p{
+    color: #777;
+    padding-top: .4rem;
+    font-size: .8rem;
+}
+
+.second__container-repo{
+    font-size: .9rem;
+}
+.repo__star{
+    margin-right: .5rem;
+    padding: .2rem;
+    background-color: rgb(63,156,207);
+    border-radius: 5px;
+}
+
+.repo__watch{
+    margin-right: .5rem;
+    padding: .2rem;
+    background-color: rgb(16, 42, 54);
+    border-radius: 5px;
+}
+
+.repo__fork{
+    padding: .2rem;
+    background-color: rgb(0, 163, 41);
+    border-radius: 5px;
+}
+
+
+
