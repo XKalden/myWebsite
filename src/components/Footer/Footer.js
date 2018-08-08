@@ -33,9 +33,7 @@ class Footer extends Component {
       }
 
     render() {
-        console.log(this.state.repos);
-
-
+  
         const github_projects = ( 
 
                 this.state.repos.map(repo => {

@@ -19,11 +19,7 @@ class Layout extends Component {
                 <About />
 
             </div>
-
-
-            
-            
-            
+           
         </Aux>
     )
   }

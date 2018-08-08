@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {NavLink} from 'react-router-dom';
+import {NavLink , Link  } from 'react-router-dom';
 import Logo from '../../img/eagle.png';
 
 
@@ -21,8 +21,6 @@ class navbar extends Component {
         }
       };
     
-
-
   render() {
     window.addEventListener('scroll', this.handleScroll);
 
@@ -45,12 +43,12 @@ class navbar extends Component {
 
             <ul className="second__Nav">
                 <ul className="logo__container">
-                    <li><img id="logo__eagle" className="logo" src={Logo} alt="log"/></li>
+                    <li><Link to="/"><img id="logo__eagle" className="logo" src={Logo} alt="log"/></Link></li>
                 </ul>    
                 <ul className="nav__menue">
-                    <li><NavLink to="resume">RESUME</NavLink></li>
-                    <li><NavLink to="portfolio">PORTFOLIO</NavLink></li>
-                    <li><NavLink to="contact">CONTACT</NavLink></li>
+                    <li><NavLink activeClassName="active" to="/resume">RESUME</NavLink></li>
+                    <li><NavLink activeClassName="active" to="/portfolio">PORTFOLIO</NavLink></li>
+                    <li><NavLink activeClassName="active" to="/contact">CONTACT</NavLink></li>
                 </ul>
             </ul>
         </nav>

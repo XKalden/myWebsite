@@ -1,0 +1,132 @@
+.resume{
+    
+
+
+}
+
+.resume__container{
+    padding: 5% 9%;
+    background-color: #f7f7f7;
+
+}
+
+.resume__p-flex{
+    display: flex;
+    margin-top: 2rem;
+
+
+}
+
+.options{
+
+    display: flex;
+
+    flex-direction: column; 
+
+    margin-right: 3rem;
+    width: 40%;
+
+  
+}
+
+.btn-custom{
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.1);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(black, .9);
+    width: 100%;
+    border-radius: 4px;
+    color: #777;
+    background-color: white;
+}
+
+.redd{
+    color: rgb(119, 198, 224);
+
+}
+
+/* btn */
+
+.btn-custom::after {
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.1);
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all .4s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: white;
+}
+
+a.btn-custom{
+    width: auto;
+    text-align: center;
+
+    display: inline-block;
+
+
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+/* option pcikc */
+.option__picked{
+
+    width: 100%;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.1);
+    border-radius: 4px;
+    height: auto;
+
+    padding: 2rem;
+
+    line-height: 1.5rem;
+    color: #777;
+
+}
+
+
+.web__grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1.2rem;
+    
+    padding-left: 2rem;
+    
+}
+
+.web__h1{
+    font-size: 1.2rem;
+    color: rgb(119, 198, 224);
+}
+
+.web-1{
+    grid-row: 1 / 1;
+
+}
+
+.web-2,
+.framwork-side,
+.database-side,
+.version-side,
+.operiting-side
+{
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+    padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
