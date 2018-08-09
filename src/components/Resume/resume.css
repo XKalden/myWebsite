@@ -1,13 +1,11 @@
 .resume{
     
-
-
 }
 
 .resume__container{
     padding: 5% 9%;
     background-color: #f7f7f7;
-
+    padding-bottom: 10%;
 }
 
 .resume__p-flex{
@@ -123,8 +121,20 @@ a.btn-custom{
 
 
 
+/* fixed Menue */
+/* .mystyle{
 
 
+    background-color: red;
+    position: fixed;
+
+    width: 20%;
+
+
+
+
+
+} */
 
 
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Background from '../../img/newMountain.png';
-import classnames from 'classnames';
 
 
 import './index.css';

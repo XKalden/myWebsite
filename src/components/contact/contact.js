@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 import './contact.css';
 import Navbar from '../Navbar/navbar';
@@ -9,31 +9,77 @@ import Footer from '../Footer/Footer';
 
 import Background from '../../img/contact2.jpg';
 
+
+
 class Contact extends Component {
 
 
-  componentDidMount = () => {
-    document.getElementById("nav").style.position = "fixed";
-   
-    // scroll TOP
-    window.scrollTo(0,0);
+    onMarkerClick = () => {
+        alert('Address - 1251 King St West, M6K 1G7');
+    } 
+
+    componentDidMount = () => {
+        document.getElementById("nav").style.position = "fixed";
     
-
-
-  }
+        // scroll TOP
+        window.scrollTo(0,0);
+        
+    }
 
   render() {
+        const style = {
+            width: '40%',
+            height: '50%'
+        }       
+
 
     return (
 
         <div className="contact" id="contact">
             <Navbar/>
             <Jumbotron src={Background} rel="bro"/>
-            <h1>  Contact</h1>
+            <div className="contact__container">
+                <h1 className="about__h1">My Contact</h1> 
+
+                <p>Cell: 647-573-9056
+                <br/>
+                  Email: Kaldenppc@outlook.com
+                
+                </p>
+
+                Call: 647-573-9056 | Email: kaldenppc@outlook.com
+
+
+                <div className="google__map">
+
+                    <Map google={this.props.google} 
+                            style={style}
+                            initialCenter={{
+                            lat: 43.638227,
+                            lng: -79.429593
+                            }}
+
+                            zoom={14}>
+                    
+                        <Marker onClick={this.onMarkerClick}
+                                name={'Current location'} />
+                
+                        <InfoWindow onClose={this.onInfoWindowClose}>
+                        
+                        </InfoWindow>
+                    </Map>
+
+                </div>
+
+            </div>
             <Footer/>
         </div>
+
+
     )
   }
 }
 
-export default Contact;
+export default GoogleApiWrapper({
+    apiKey: ('AIzaSyAW49FPawF9MJc8vLzIdL8y9iGLGUcFMvI')
+  })(Contact)

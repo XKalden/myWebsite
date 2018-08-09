@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Aux from '../../hoc/Aux/Aux';
 
-import Navbar from '../../components/Navbar/navbar';
 
 import Index from '../../components/Index/index';
 import About from '../../components/About/About';

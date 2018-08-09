@@ -16,12 +16,15 @@ class Resume extends Component {
         show: 'web'
     }
 
+
+
+
     componentDidMount = () => {
+        window.addEventListener('scroll', this.handleScroll);
         document.getElementById("nav").style.position = "fixed";
         // scroll TOP
         window.scrollTo(0,0);
     }
-
 
 
     changeResume = (title) => {
@@ -30,14 +33,9 @@ class Resume extends Component {
         } else if (title === 'digital'){
             this.setState({show:'digital'})
         }
-
     }
 
-
-  
-  
-    render() {
-
+    render() {        
         let resumeShow = (
             <div>
                 <h1>Null</h1>
@@ -144,6 +142,7 @@ class Resume extends Component {
         }
 
 
+
         return (
             <div className="resume" id="resume">
                 <Navbar/>
@@ -154,8 +153,9 @@ class Resume extends Component {
 
                     <h1 className="about__h1"> My Resume</h1>
 
-                    <div class="resume__p-flex">
-                        <div className="options">
+                    <div className="resume__p-flex">
+                        <div className="options" >
+                        
                             <button 
                                 className={classnames('btn btn-custom', {
                                     'redd': this.state.show === 'web'
@@ -168,7 +168,8 @@ class Resume extends Component {
                                 })}
                                 onClick={()=>this.changeResume('digital')}>Digital Marketing</button>
 
-                            <a class="btn btn-custom" href={wow} target="_blank">Download Resume</a> 
+                            <a className="btn btn-custom" href={wow} target="_blank">Download Resume</a> 
+                         
                         </div>
 
                         <div className="option__picked">
@@ -181,6 +182,8 @@ class Resume extends Component {
 
 
                 <Footer/>
+
+      
             </div>
         )
   }

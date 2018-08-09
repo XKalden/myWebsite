@@ -19,7 +19,7 @@ class navbar extends Component {
         if(lastScrollY <= 150){
             document.getElementById("logo__eagle").style.height = "70px";
         }
-      };
+    };
     
   render() {
     window.addEventListener('scroll', this.handleScroll);
@@ -33,11 +33,11 @@ class navbar extends Component {
                     <li>Call: <a href="tel:647-573-9056">647-573-9056</a> | Email: <a href="mailto:kaldenppc@outlook.com?Subject=Hello%20again" target="_top">kaldenppc@outlook.com</a></li>
                 </ul>
                 <ul className="second__ul">
-                    <li><a className="linkedin" href="https://www.linkedin.com/in/tkalden/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
-                    <li><a className="facebook" href="https://www.facebook.com/Real.Kalden" target="_blank"><i className="fab fa-facebook"></i></a></li>
-                    <li><a className="instagram" href="https://www.instagram.com/tsering.kalden/" target="_blank"><i className="fab fa-instagram"></i></a></li>
-                    <li><a className="github" href="https://github.com/XKalden" target="_blank"><i className="fab fa-github-square"></i></a></li>
-                    <li><a className="youtube" href="https://www.youtube.com/user/kalden619/featured" target="_blank"><i className="fab fa-youtube"></i></a></li>
+                    <li><a className="linkedin" href="https://www.linkedin.com/in/tkalden/" target="_blank" rel="noopener noreferrer" ><i className="fab fa-linkedin"></i></a></li>
+                    <li><a className="facebook" href="https://www.facebook.com/Real.Kalden" target="_blank" rel="noopener noreferrer" ><i className="fab fa-facebook"></i></a></li>
+                    <li><a className="instagram" href="https://www.instagram.com/tsering.kalden/" target="_blank" rel="noopener noreferrer" ><i className="fab fa-instagram"></i></a></li>
+                    <li><a className="github" href="https://github.com/XKalden" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a></li>
+                    <li><a className="youtube" href="https://www.youtube.com/user/kalden619/featured" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
                 </ul>
             </ul>
 

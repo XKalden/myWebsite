@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom';
 import Logo from '../../img/eagle.png';
 
 import './Footer.css';
@@ -94,10 +93,6 @@ class Footer extends Component {
                         <div className="github__project-flex">
                             {github_projects}
                         </div>
-
-
-
-                    
                     </div>
                 
                 </div>
@@ -108,11 +103,11 @@ class Footer extends Component {
                             <li>© Tsering Kalden 2018 | All Rights Reserved | Disclaimer</li>
                         </ul>
                         <ul className="second__ul">
-                            <li><a className="linkedin" href="https://www.linkedin.com/in/tkalden/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
-                            <li><a className="facebook" href="https://www.facebook.com/Real.Kalden" target="_blank"><i className="fab fa-facebook"></i></a></li>
-                            <li><a className="instagram" href="https://www.instagram.com/tsering.kalden/" target="_blank"><i className="fab fa-instagram"></i></a></li>
-                            <li><a className="github" href="https://github.com/XKalden" target="_blank"><i className="fab fa-github-square"></i></a></li>
-                            <li><a className="youtube" href="https://www.youtube.com/user/kalden619/featured" target="_blank"><i className="fab fa-youtube"></i></a></li>
+                            <li><a className="linkedin" href="https://www.linkedin.com/in/tkalden/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                            <li><a className="facebook" href="https://www.facebook.com/Real.Kalden" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a></li>
+                            <li><a className="instagram" href="https://www.instagram.com/tsering.kalden/" target="_blank" rel="noopener noreferrer" ><i className="fab fa-instagram"></i></a></li>
+                            <li><a className="github" href="https://github.com/XKalden" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a></li>
+                            <li><a className="youtube" href="https://www.youtube.com/user/kalden619/featured" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a></li>
                         </ul>
                     </ul>
 
