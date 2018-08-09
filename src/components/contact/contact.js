@@ -27,7 +27,7 @@ class Contact extends Component {
     }
 
   render() {
-        const style = {
+        const mapstyle = {
             width: '40%',
             height: '50%'
         }       
@@ -41,19 +41,16 @@ class Contact extends Component {
             <div className="contact__container">
                 <h1 className="about__h1">My Contact</h1> 
 
-                <p>Cell: 647-573-9056
+                <p className="contact__p"><span className="blue">Cell</span>:  647-573-9056
                 <br/>
-                  Email: Kaldenppc@outlook.com
+                  <span className="blue">Email</span>: kaldendeveloper@gmail.com
                 
                 </p>
-
-                Call: 647-573-9056 | Email: kaldenppc@outlook.com
-
 
                 <div className="google__map">
 
                     <Map google={this.props.google} 
-                            style={style}
+                            style={mapstyle}
                             initialCenter={{
                             lat: 43.638227,
                             lng: -79.429593

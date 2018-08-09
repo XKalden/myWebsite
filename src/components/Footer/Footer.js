@@ -80,7 +80,7 @@ class Footer extends Component {
                         <h3>Tsering Kalden</h3>
                         <p className="copy__p"> 
                         My services are specialized in Web Development and Digital Marketing.
-                        Please do not hesitate to contact me at​ 647-573-9056 or email me at kaldenppc@outlook.com 
+                        Please do not hesitate to contact me at​ 647-573-9056 or email me at kaldendeveloper@gmail.com
                         </p>
 
                         <img className="footer__logo" src={Logo} alt="logo"/>

@@ -44,7 +44,7 @@ class Portfolio extends Component {
             <div className="protfolio__grid-container">
 
               <figure className="protfolio__grid">
-               <a href="https://kalden-web.herokuapp.com/" target="_blank" className="a__website">
+               <a href="https://kalden-web.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="a__website">
                 <div className="grid__image-container">
                   <img className="grid__image-size" src={Myweb} alt="bkground"/>
                 </div>
@@ -57,7 +57,7 @@ class Portfolio extends Component {
 
 
               <figure className="protfolio__grid">
-               <a href="https://react-my-burger-c005b.firebaseapp.com/" target="_blank" className="a__website">
+               <a href="https://react-my-burger-c005b.firebaseapp.com/" rel="noopener noreferrer" target="_blank" className="a__website">
                 <div className="grid__image-container">
                   <img src={Burger} alt="bkground" className="grid__image-size"/>
                 </div>
@@ -71,7 +71,7 @@ class Portfolio extends Component {
 
   
               <figure className="protfolio__grid">
-               <a href="https://xkalden.github.io/Aloha_Mobile-First-Website/" target="_blank" className="a__website">
+               <a href="https://xkalden.github.io/Aloha_Mobile-First-Website/" rel="noopener noreferrer" target="_blank" className="a__website">
                 <div className="grid__image-container">
                   <img src={Aloha} alt="bkground" className="grid__image-size"/>
                 </div>
@@ -84,7 +84,7 @@ class Portfolio extends Component {
 
 
               <figure className="protfolio__grid">
-               <a href="https://github.com/XKalden/React-Youtube" target="_blank" className="a__website">
+               <a href="https://github.com/XKalden/React-Youtube" rel="noopener noreferrer" target="_blank" className="a__website">
                 <div className="grid__image-container">
                   <img src={Youtube} alt="bkground" className="grid__image-size"/>
                 </div>
@@ -96,7 +96,7 @@ class Portfolio extends Component {
               </figure>
 
               <figure className="protfolio__grid">
-               <a href="https://kalden-rails.herokuapp.com/" target="_blank" className="a__website">
+               <a href="https://kalden-rails.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="a__website">
                 <div className="grid__image-container">
                   <img src={Rubyblog} alt="bkground" className="grid__image-size"/>
                 </div>
@@ -109,7 +109,7 @@ class Portfolio extends Component {
 
 
               <figure className="protfolio__grid">
-               <a href="https://xkalden.github.io/realestate-House-webstie/" target="_blank" className="a__website">
+               <a href="https://xkalden.github.io/realestate-House-webstie/" rel="noopener noreferrer" target="_blank" className="a__website">
                 <div className="grid__image-container">
                   <img src={Realestate} alt="bkground" className="grid__image-size"/>
                 </div>
@@ -123,7 +123,7 @@ class Portfolio extends Component {
 
 
               <figure className="protfolio__grid">
-              <a href="http://kalden.herokuapp.com/" target="_blank" className="a__website">
+              <a href="http://kalden.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="a__website">
                <div className="grid__image-container">
                  <img src={Kblog} alt="bkground" className="grid__image-size"/>
                </div>
@@ -135,7 +135,7 @@ class Portfolio extends Component {
              </figure>
 
              <figure className="protfolio__grid">
-              <a href="https://xkalden.github.io/hostTest/" target="_blank" className="a__website">
+              <a href="https://xkalden.github.io/hostTest/" rel="noopener noreferrer" target="_blank" className="a__website">
                <div className="grid__image-container">
                  <img src={FlexBox} alt="bkground" className="grid__image-size"/>
                </div>
@@ -148,7 +148,7 @@ class Portfolio extends Component {
 
 
              <figure className="protfolio__grid">
-              <a href="https://xkalden.github.io/LandingPage_gitHost/" target="_blank" className="a__website">
+              <a href="https://xkalden.github.io/LandingPage_gitHost/" rel="noopener noreferrer" target="_blank" className="a__website">
                <div className="grid__image-container">
                  <img src={LandingPage} alt="bkground" className="grid__image-size"/>
                </div>
@@ -161,7 +161,7 @@ class Portfolio extends Component {
 
 
              <figure className="protfolio__grid">
-             <a href="https://xkalden.github.io/askForTask-Website/" target="_blank" className="a__website">
+             <a href="https://xkalden.github.io/askForTask-Website/" rel="noopener noreferrer" target="_blank" className="a__website">
               <div className="grid__image-container">
                 <img src={Formstite} alt="bkground" className="grid__image-size"/>
               </div>
@@ -173,7 +173,7 @@ class Portfolio extends Component {
             </figure>
 
             <figure className="protfolio__grid">
-             <a href="https://primerpresentationgroup.com/" target="_blank" className="a__website">
+             <a href="https://primerpresentationgroup.com/" rel="noopener noreferrer" target="_blank" className="a__website">
               <div className="grid__image-container">
                 <img src={Wordpress} alt="bkground" className="grid__image-size"/>
               </div>
@@ -186,7 +186,7 @@ class Portfolio extends Component {
 
 
             <figure className="protfolio__grid">
-             <a href="https://github.com/XKalden/BlockChain_js" target="_blank" className="a__website">
+             <a href="https://github.com/XKalden/BlockChain_js" rel="noopener noreferrer" target="_blank" className="a__website">
               <div className="grid__image-container">
                 <img src={Blockchain} alt="bkground" className="grid__image-size"/>
               </div>
