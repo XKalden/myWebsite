@@ -43,7 +43,7 @@ class About extends Component {
                             <br/>
                             Getting straight to the point; Hire me and I promise to make you one proud man or women.
                             <br/><br/>
-                            If you would like to discuss my skills and experience in greater detail, please do not hesitate to contact me at​ 647-573-9056 or email me at kaldenppc@outlook.com 
+                            If you would like to discuss my skills and experience in greater detail, please do not hesitate to contact me at​ 647-573-9056 or email me at kaldendeveloper@gmail.com
                             </p>
                             
                         </div>
