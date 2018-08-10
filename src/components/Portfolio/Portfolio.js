@@ -49,8 +49,8 @@ class Portfolio extends Component {
                   <img className="grid__image-size" src={Myweb} alt="bkground"/>
                 </div>
                 <figcaption className="story__caption">
-                  <h4 className="story__h4">My Website | React</h4>
-                  <p className="story__p">wow its about felxbox and how it works its cool</p>
+                  <h4 className="story__h4">My Website | React App</h4>
+                  <p className="story__p">Portfolio Website using React Libary</p>
                 </figcaption>
                 </a>
               </figure>
@@ -62,8 +62,8 @@ class Portfolio extends Component {
                   <img src={Burger} alt="bkground" className="grid__image-size"/>
                 </div>
                 <figcaption className="story__caption">
-                  <h4 className="story__h4">Burger Build | React </h4>
-                  <p className="story__p">Store user burger ingredient in FireBase</p>
+                  <h4 className="story__h4">Burger Build | React App</h4>
+                  <p className="story__p">Stores user burger ingredient data in Firebase </p>
                 </figcaption>
                 </a>
               </figure>
@@ -76,8 +76,8 @@ class Portfolio extends Component {
                   <img src={Aloha} alt="bkground" className="grid__image-size"/>
                 </div>
                 <figcaption className="story__caption">
-                  <h4 className="story__h4">Mobile First | Css</h4>
-                  <p className="story__p">wow its about felxbox and how it works its cool</p>
+                  <h4 className="story__h4">Mobile First Site | Html & Css</h4>
+                  <p className="story__p">Build using mobile first media queries approach  </p>
                 </figcaption>
                 </a>
               </figure>
@@ -90,7 +90,7 @@ class Portfolio extends Component {
                 </div>
                 <figcaption className="story__caption">
                   <h4 className="story__h4"> Youtube Api | React App</h4>
-                  <p className="story__p">Search for any video on Youtube</p>
+                  <p className="story__p">Able to watch any videos uploaded on Youtube</p>
                 </figcaption>
                 </a>
               </figure>
@@ -102,7 +102,7 @@ class Portfolio extends Component {
                 </div>
                 <figcaption className="story__caption">
                   <h4 className="story__h4">Blog Site | Ruby on Rails</h4>
-                  <p className="story__p">wow its about felxbox and how it works its cool</p>
+                  <p className="story__p">Able to create accounts, publish blogs and leave comments</p>
                 </figcaption>
                 </a>
               </figure>
@@ -115,7 +115,7 @@ class Portfolio extends Component {
                 </div>
                 <figcaption className="story__caption">
                   <h4 className="story__h4">Real Estate Web | Css Grid </h4>
-                  <p className="story__p">wow its about felxbox and how it works its cool</p>
+                  <p className="story__p">Build using CSS Grid layouts. Desktop first approach</p>
                 </figcaption>
                 </a>
               </figure>
@@ -128,8 +128,8 @@ class Portfolio extends Component {
                  <img src={Kblog} alt="bkground" className="grid__image-size"/>
                </div>
                <figcaption className="story__caption">
-                 <h4 className="story__h4"> K-Photo | Express</h4>
-                 <p className="story__p">Search for any video on Youtube</p>
+                 <h4 className="story__h4"> K-Photo | Ejs - Express</h4>
+                 <p className="story__p">Upload Images and leave comment to MongoDB</p>
                </figcaption>
                </a>
              </figure>
@@ -140,8 +140,8 @@ class Portfolio extends Component {
                  <img src={FlexBox} alt="bkground" className="grid__image-size"/>
                </div>
                <figcaption className="story__caption">
-                 <h4 className="story__h4"> Hotel Review | Flexbox  Sass</h4>
-                 <p className="story__p">wow its about felxbox and how it works its cool</p>
+                 <h4 className="story__h4"> Hotel Review | Flexbox Sass</h4>
+                 <p className="story__p">Build using CSS Flexbox layouts. Desktop first approach</p>
                </figcaption>
                </a>
              </figure>
@@ -153,8 +153,8 @@ class Portfolio extends Component {
                  <img src={LandingPage} alt="bkground" className="grid__image-size"/>
                </div>
                <figcaption className="story__caption">
-                 <h4 className="story__h4">Landing page | Sass </h4>
-                 <p className="story__p">wow its about felxbox and how it works its cool</p>
+                 <h4 className="story__h4">Landing Web Page | Sass </h4>
+                 <p className="story__p">Form page with Css animation</p>
                </figcaption>
                </a>
              </figure>
@@ -167,7 +167,7 @@ class Portfolio extends Component {
               </div>
               <figcaption className="story__caption">
                 <h4 className="story__h4"> Form Page | Jquery</h4>
-                <p className="story__p">Search for any video on Youtube</p>
+                <p className="story__p">Form Validation using Jquery</p>
               </figcaption>
               </a>
             </figure>
@@ -178,8 +178,8 @@ class Portfolio extends Component {
                 <img src={Wordpress} alt="bkground" className="grid__image-size"/>
               </div>
               <figcaption className="story__caption">
-                <h4 className="story__h4"> Primer Presentaion | Wordpress </h4>
-                <p className="story__p">wow its about felxbox and how it works its cool</p>
+                <h4 className="story__h4">Primer Presentaion | Wordpress </h4>
+                <p className="story__p">Build custom wordpress theme from the ground up.</p>
               </figcaption>
               </a>
             </figure>
@@ -192,7 +192,7 @@ class Portfolio extends Component {
               </div>
               <figcaption className="story__caption">
                 <h4 className="story__h4">Block Chain | NodeJs </h4>
-                <p className="story__p">wow its about felxbox and how it works its cool</p>
+                <p className="story__p">Build blockchain cryptocurrency using javascript constructor function</p>
               </figcaption>
               </a>
             </figure>
